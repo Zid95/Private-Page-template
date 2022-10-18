@@ -151,19 +151,18 @@ p{
 .container-image{
     width: 45%;
     height: 90%;
+ 
 }
 .container-image img{
     width: 800px;
     height: 800px;
    position: relative;
    top: 6rem;
-   transition: 0.4s;
-
+  
+    
 }
 
-.container-image:hover .img1{
-    transform: scale(0.8);
-}
+
 
 .about{
     background-color: var(--bgcolor-2);
@@ -184,15 +183,13 @@ p{
 .about .container-image img{
     width: 95%;
     height: 50%;
-    transition: 0.4s;
+   
     
  
     
 }
 
-.about .container-image img:hover{
-    transform: scale(0.8);
-}
+
 
 .about .container-text{
     width: 30%;
@@ -250,15 +247,13 @@ padding: 2rem var(--padding);
 .skills .container-image img{
     width: 95%;
     height: 50%;
-    transition: 0.4s;
+  
     
  
     
 }
 
-.skills .container-image img:hover{
-    transform: scale(0.8);
-}
+
 
 .skills .container-skills{
 
