@@ -46,6 +46,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 nav ul li{
@@ -70,7 +71,8 @@ nav ul li a{
 }
 
 nav ul li a:hover{    
-    border: 2px solid var(--primarycolor);
+    background-color: var(--primarycolor);
+   
 }
 
 .btn{
@@ -297,20 +299,71 @@ footer .content-footer .end{
 
 
 
-@media screen and (max-width: 600px;) 
+
+/*---------------------------------------------------*/
+
+
+@media screen and (max-width:575px) {
+
+    .container-image{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    .container-text h1{
+        font-size: 25px;
+    }
+     
+    .about .container-image{
+        display: none;
+    }
+
+    .about .container-text{
+        width: 100%;
+        margin-top: 3rem;
+       
+    }
     
-{ 
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
 
-    
+    .skills .container-image{
+        display: none;
+    }
 
+    .container-skills h1{
+        font-size: 29px;
+        margin-bottom: 3rem;
+    }
+   
+    .skills .container-skills{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      
+    }
+    .skills .container-skills .content-skills{
+      justify-content: center;
+         
+    }
 
-
-
-
-
-
-
-
-
-
+    .skills .container-skills .content-skills img{
+        width: 80px;
+        height: 80px;
+       
+     
+    }
+     .content-footer p{
+       
+        padding: 0 3rem 0 3rem;
+          
+    }
 }
